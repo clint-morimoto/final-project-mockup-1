@@ -36,6 +36,12 @@ FlowRouter.route('/profile', {
   },
 });
 
+FlowRouter.route('/top', {
+  name: 'Top_Picks_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Top_Picks_Page' });
+  },
+});
 
 FlowRouter.route('/add', {
   name: 'Add_Stuff_Page',
