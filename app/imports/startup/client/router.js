@@ -43,6 +43,13 @@ FlowRouter.route('/top', {
   },
 });
 
+FlowRouter.route('/aboutus', {
+  name: 'About_Us_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'About_Us_Page' });
+  },
+});
+
 FlowRouter.route('/add', {
   name: 'Add_Stuff_Page',
   action() {
