@@ -1,0 +1,60 @@
+<template name="Sign_Up_Page">
+
+  <div class="sign-grad-background">
+    <div class="ui container" style="padding-top: 40px;">
+      <form class="ui large form">
+        <div class="ui stacked segment" style="opacity: 0.95">
+          <h4 class="ui dividing header" style="font-size: 20px">Please complete the following form.</h4>
+
+          <div class="field">
+            <div class="two fields">
+              <div class="field">
+                <label>First Name</label>
+                <input type="text" name="first" placeholder="Bob" id="first">
+              </div>
+              <div class="field">
+                <label>Last Name</label>
+                <input type="text" name="last" placeholder="The Builder" id="last">
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="two fields">
+              <div class="field">
+                <label>UHM ID Number</label>
+                <input type="text" name="uhid" placeholder="xxxx-xxxx" id="uhid">
+              </div>
+              <div class="field">
+                <label>UHM Email</label>
+                <input type="text" name="email" placeholder="canwefixit@hawaii.edu" id="email">
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Username</label>
+            <input type="text" name="user" placeholder="username" id="user">
+          </div>
+
+          <div class="two fields">
+            <div class="field">
+              <label>Password</label>
+              <input type="text" name="password" placeholder="Password" id="password">
+            </div>
+
+            <div class="field">
+              <label>Confirm Password</label>
+              <input type="text" name="cpassword" placeholder="Password" id="cpassword">
+            </div>
+          </div>
+
+
+          <button class="ui fluid button" type="submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+</template>

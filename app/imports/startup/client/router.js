@@ -15,6 +15,28 @@ FlowRouter.route('/list', {
   },
 });
 
+FlowRouter.route('/login', {
+  name: 'Login_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Login_Page' });
+  },
+});
+
+FlowRouter.route('/signup', {
+  name: 'Sign_Up_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Sign_Up_Page' });
+  },
+});
+
+FlowRouter.route('/profile', {
+  name: 'Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Profile_Page' });
+  },
+});
+
+
 FlowRouter.route('/add', {
   name: 'Add_Stuff_Page',
   action() {

@@ -1,3 +1,49 @@
 body {
-  padding-top: 61px;  /* Move body of page below navbar. */
+  padding-top: 50px; /* Move body of page below navbar. */
 }
+
+.center.text {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 70px;
+}
+
+.grad-background {
+  background: url(http://croocky.com/uploads/posts/2016-06/1466695382_22mibfan8lo.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.sign-grad-background {
+  background: url(https://usfoodsdemexico.files.wordpress.com/2013/05/food-photography-jon-kline1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.colorblocktop {
+  padding-top: 225px;
+}
+
+.log-grad-background {
+  background: url(https://i.ytimg.com/vi/t18qMEJk1OI/maxresdefault.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.log-colorblocktop {
+  padding-top: 100px;
+}
+
+.log-center.text {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+  color: white;
+}
+

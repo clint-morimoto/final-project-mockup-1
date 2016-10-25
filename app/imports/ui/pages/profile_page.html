@@ -1,0 +1,12 @@
+<template name="Profile_Page">
+    <div style="padding-top: 20px" class="ui text container">
+      {{> quickForm
+      collection=stuffCollection
+      template="semanticUI"
+      id="EditStuffForm"
+      type="update"
+      doc=getDoc
+      buttonContent="Update"
+      }}
+    </div>
+</template>
