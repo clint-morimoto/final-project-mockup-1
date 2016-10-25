@@ -15,14 +15,14 @@ body {
   height: 500px;
 }
 
+.colorblocktop {
+  padding-top: 225px;
+}
+
 .sign-grad-background {
   background: url(https://usfoodsdemexico.files.wordpress.com/2013/05/food-photography-jon-kline1.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 500px;
-}
-
-.colorblocktop {
-  padding-top: 225px;
 }
 
 .log-grad-background {
@@ -41,9 +41,28 @@ body {
   text-align: center;
 }
 
+.prof-grad-background {
+  background: url(http://65.media.tumblr.com/81e5d24e1887d3b549abe8b54fc5188d/tumblr_o81e0yYSlS1vw9t42o1_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.prof-center.text {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.prof-colorblocktop {
+  padding-top: 100px;
+}
+
 footer {
   background-color: black;
   height: 100px;
   color: white;
 }
+
 
