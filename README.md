@@ -19,3 +19,8 @@ Profile Page
 <br>
 <img src="/app/public/images/profile.png">
 <br><br>
+
+About Page
+<br>
+<img src="/app/public/images/about.png">
+<br><br>

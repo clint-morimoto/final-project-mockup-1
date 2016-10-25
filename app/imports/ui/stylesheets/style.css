@@ -59,6 +59,24 @@ body {
   padding-top: 100px;
 }
 
+.about-grad-background {
+  background: url(http://www.donna.gr/wp-content/uploads/2015/06/pancakes.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.about-center.text {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.about-colorblocktop {
+  padding-top: 100px;
+}
+
 footer {
   background-color: black;
   height: 100px;

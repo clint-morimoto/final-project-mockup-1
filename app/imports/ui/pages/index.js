@@ -18,5 +18,8 @@ import './profile_page.html';
 
 import './top_page.html';
 
+
+import './about-us.html';
+
 import './list-stuff-page.html';
 import './list-stuff-page.js';
