@@ -1,43 +1,59 @@
 <template name="Profile_Page">
 
-  <div class="prof-grad-background" style="opacity: 0.80">
-    <div class="ui container prof-colorblocktop">
+  <div class="profile-background" style="opacity: 0.80">
+    <div class="ui container profile-colorblocktop">
       <div class="ui column">
+        <div class="profile-center text">
+          My Profile
+        </div>
+
         <div class="ui stacked segment" style="opacity: 0.95">
-          <div class="prof-center text">
-            Hey! Welcome Back
-          </div>
+
           <div class="ui grid">
             <div class="four wide column">
               <div class="ui vertical fluid tabular menu">
-                <a class="item">
-                  Bio
-                </a>
-                <a class="item active">
-                  Go-to Places
-                </a>
-                <a class="item">
-                  All Time Faves
-                </a>
-                <a class="item">
-                  Links
-                </a>
+                <a class="item" data-tab="first">First</a>
+                <a class="item" data-tab="second">Second</a>
+                <a class="item" data-tab="third">Third</a>
+                <a class="item" data-tab="fourth">Fourth</a>
               </div>
             </div>
             <div class="twelve wide stretched column">
-              <div class="ui segment">
-                <ul>
-                  <li>Campus Center</li>
-                  <li>Jamba Juice</li>
-                  <li>Paradise Palms</li>
-                  <li>Gateway Cafe</li>
-                </ul>
+              <div class="ui tab segment" data-tab="first" style="min-height: 200px">
+                This is an stretched grid column. This segment will always match the tab height
+                <p></p>
+                <p></p>
+              </div>
+              <div class="ui tab segment" data-tab="second" style="min-height: 200px">
+                This is an stretched grid column. This segment will always match the tab height
+                <p></p>
+                <p></p>
+              </div>
+              <div class="ui tab segment" data-tab="third" style="min-height: 200px">
+                This is an stretched grid column. This segment will always match the tab height
+                <p></p>
+                <p></p>
+              </div>
+              <div class="ui tab segment" data-tab="fourth" style="min-height: 200px">
+                This is an stretched grid column. This segment will always match the tab height
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    $('.menu .item')
+        .tab()
+    ;
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Questrial');
+  </style>
 
 </template>

@@ -1,9 +1,9 @@
 <template name="Header">
 
-  <div class="ui top fixed borderless inverted menu">
+  <div class="ui top fixed borderless inverted menu" style="background-color: black">
 
     <div class="ui container">
-      <a class="item" href="{{pathFor 'Home_Page'}}"><h2>Alloy</h2></a>
+      <a class="item" href="{{pathFor 'Landing_Page'}}"><h2>Alloy</h2></a>
 
       <div class="ui right dropdown item">
         <div class="text">What To Do?</div>
@@ -29,7 +29,6 @@
           <a class="{{ isActiveRoute 'About_Us_Page'}} item"
              href="{{ pathFor 'About_Us_Page' }}"
              style="color: black;">About Us</a>
-
         </div>
       </div>
     </div>

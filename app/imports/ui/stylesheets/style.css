@@ -59,8 +59,9 @@ footer {
   }
 }
 
+
 /*
- * CSS for Home Page
+ * Landing Page
  */
 .center.text {
   color: white;
@@ -72,35 +73,58 @@ footer {
   animation: fadeInDown 2s;
 }
 
-.home-background {
-  background: url(https://images.unsplash.com/22/morning-street.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=d3a606482c8d709601265d73d607bb34) no-repeat center center fixed;
+.landing-background {
+  background: url(https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=d67d058666f12ab507d885162c4e33ad) no-repeat center center fixed;
   background-size: cover;
-  height: 600px;
+  min-height: 600px;
 }
 
 .colorblocktop {
   padding-top: 200px;
 }
 
-.ui.massive.inverted.blue.basic.button {
+.ui.huge.inverted.blue.basic.button {
   -webkit-animation: fadeInDown 4s;
   animation: fadeInDown 4s;
 }
 
-/* */
-.sign-grad-background {
-  background: url(https://usfoodsdemexico.files.wordpress.com/2013/05/food-photography-jon-kline1.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: 600px;
+/*
+ * Home Page
+ */
+.home-center.text {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+
+  -webkit-animation: fadeInDown 2s;
+  animation: fadeInDown 2s;
 }
 
+.home-background {
+  background: url(https://images.unsplash.com/photo-1455894127589-22f75500213a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=707b89a1269f1ff0b0a436bd3eededf4) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.home-colorblocktop {
+  padding-top: 50px;
+}
+
+.ui.top.attached.tabular.menu {
+  -webkit-animation: fadeInLeft 2s;
+  animation: fadeInLeft 2s;
+}
+
+
 /*
- * CSS for Login Page
+ * Login Page
  */
 .login-background {
   background: url(https://images.unsplash.com/photo-1430760903787-4d91bbf15384?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=a7bd0e9421c84c96622a3d55299f3ef8) no-repeat center center fixed;
   background-size: cover;
-  height: 600px;
+  min-height: 600px;
 }
 
 .login-colorblocktop {
@@ -116,23 +140,29 @@ footer {
   text-align: center;
 }
 
-.prof-grad-background {
-  background: url(http://65.media.tumblr.com/81e5d24e1887d3b549abe8b54fc5188d/tumblr_o81e0yYSlS1vw9t42o1_1280.jpg) no-repeat center center fixed;
+
+/*
+ * Profile Page
+ */
+.profile-background {
+  background: url(https://images.unsplash.com/photo-1428266291406-9e73c3f975c2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=b171d1f6b529487c251570559ebd9656) no-repeat center center fixed;
   background-size: cover;
-  height: 600px;
+  min-height: 600px;
 }
 
-.prof-center.text {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  text-align: left;
+.profile-center.text {
+  color: white;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
   font-size: 40px;
   padding-bottom: 50px;
 }
 
-.prof-colorblocktop {
+.profile-colorblocktop {
   padding-top: 100px;
 }
+
+
 
 .about-grad-background {
   background: url(http://www.donna.gr/wp-content/uploads/2015/06/pancakes.jpg) no-repeat center center fixed;

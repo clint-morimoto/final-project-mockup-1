@@ -1,19 +1,138 @@
 <template name="Home_Page">
 
   <div class="home-background">
-    <div class="ui container colorblocktop">
+    <div class="ui container home-colorblocktop">
       <div class="ui column">
-        <div class="center text">
-          <div class="ui list">
-            <div class="item">Welcome To Alloy</div>
-            <div class="ui huge inverted blue basic button">
-              <div class="content">Login</div>
+        <div class="home-center text">Welcome Back<br><br><br>Kyle</div>
+
+        <div class="ui segment home" style="opacity: 0.95">
+          <div class="ui top attached tabular menu">
+            <a class="active item" data-tab="home">
+              Home
+            </a>
+            <a class="item" data-tab="messages">
+              Messages
+            </a>
+            <a class="item active" data-tab="friends">
+              Friends
+            </a>
+            <div class="right menu">
+              <div class="item">
+                <div class="ui transparent icon input">
+                  <input type="text" placeholder="Search...">
+                  <i class="search link icon"></i>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="ui bottom attached tab segment" data-tab="home" style="height: 100px">
+            Placeholder text
+          </div>
+          <div class="ui bottom attached tab segment" data-tab="messages" style="height: 100px">
+
+          </div>
+          <div class="ui bottom attached tab segment" data-tab="friends" style="height: 100px">
+
+          </div>
+
+          <div class="interested text">Explore Projects</div>
+
+          <div class="ui segment interested" style="opacity: 0.975">
+            <div class="ui centered fluid special cards">
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button">View More</div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                      src="https://images.unsplash.com/photo-1470447149612-a1ed521fbcae?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=9bb3c0498bf05bc31c8feea754f154fb">
+                </div>
+                <div class="content">
+                  <a class="header">Bro Band</a>
+                  <div class="meta">
+                    <span class="date">Created in 2016</span>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a>
+                    <i class="users icon"></i>
+                    9 Members
+                  </a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button">View More</div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                      src="https://images.unsplash.com/photo-1453491945771-a1e904948959?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=718bb452b1448246e8d0df0ae033a74f">
+                </div>
+                <div class="content">
+                  <a class="header">KMade</a>
+                  <div class="meta">
+                    <span class="date">Created in 2014</span>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a>
+                    <i class="users icon"></i>
+                    34 Members
+                  </a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button">View More</div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                      src="https://images.unsplash.com/photo-1471224689211-8d9629bafd66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=8f5963308710cced061834f2a1860362">
+                </div>
+                <div class="content">
+                  <a class="header">Photo Fam</a>
+                  <div class="meta">
+                    <span class="date">Create in Aug 2016</span>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a>
+                    <i class="users icon"></i>
+                    79 Members
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
+
+  <script>
+    $('.menu .item')
+        .tab()
+    ;
+    $('.special.cards .image').dimmer({
+      on: 'hover'
+    });
+  </script>
 
   <style>
     @import url('https://fonts.googleapis.com/css?family=Questrial');
