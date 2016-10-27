@@ -1,50 +1,125 @@
+/*
+ * Default HTML tag edits
+ */
 body {
-  padding-top: 50px; /* Move body of page below navbar. */
+  padding-top: 56px; /* Move body of page below navbar. */
 }
 
+footer {
+  background-color: black;
+  height: 100px;
+  color: white;
+}
+
+
+/*
+ * CSS for Fading transitions
+ */
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*
+ * CSS for Home Page
+ */
 .center.text {
-  color: black;
-  font-family: 'Lato', sans-serif;
+  color: white;
+  font-family: 'Questrial', sans-serif;
   text-align: center;
   font-size: 70px;
+
+  -webkit-animation: fadeInDown 2s;
+  animation: fadeInDown 2s;
 }
 
-.grad-background {
-  background: url(http://croocky.com/uploads/posts/2016-06/1466695382_22mibfan8lo.jpg) no-repeat center center fixed;
+.home-background {
+  background: url(https://images.unsplash.com/22/morning-street.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=d3a606482c8d709601265d73d607bb34) no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .colorblocktop {
-  padding-top: 225px;
+  padding-top: 200px;
 }
 
+.ui.massive.inverted.blue.basic.button {
+  -webkit-animation: fadeInDown 4s;
+  animation: fadeInDown 4s;
+}
+
+/* */
 .sign-grad-background {
   background: url(https://usfoodsdemexico.files.wordpress.com/2013/05/food-photography-jon-kline1.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
-.log-grad-background {
-  background: url(https://i.ytimg.com/vi/t18qMEJk1OI/maxresdefault.jpg) no-repeat center center fixed;
+/*
+ * CSS for Login Page
+ */
+.login-background {
+  background: url(https://images.unsplash.com/photo-1430760903787-4d91bbf15384?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=a7bd0e9421c84c96622a3d55299f3ef8) no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
-.log-colorblocktop {
+.login-colorblocktop {
   padding-top: 100px;
+
+  -webkit-animation: fadeInLeft 2s;
+  animation: fadeInLeft 2s;
 }
 
-.log-center.text {
+.login-center.text {
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Questrial', sans-serif;
   text-align: center;
 }
 
 .prof-grad-background {
   background: url(http://65.media.tumblr.com/81e5d24e1887d3b549abe8b54fc5188d/tumblr_o81e0yYSlS1vw9t42o1_1280.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .prof-center.text {
@@ -62,7 +137,7 @@ body {
 .about-grad-background {
   background: url(http://www.donna.gr/wp-content/uploads/2015/06/pancakes.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .about-center.text {
@@ -77,10 +152,8 @@ body {
   padding-top: 100px;
 }
 
-footer {
-  background-color: black;
-  height: 100px;
-  color: white;
+.ui.large.form {
+  opacity: 0.95;
 }
 
 
