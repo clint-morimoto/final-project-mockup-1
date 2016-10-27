@@ -18,5 +18,7 @@ import './profile_page.js';
 import './about-us.html';
 import './about-us.js';
 
+import './collaborators-page.html';
+
 import './list-stuff-page.html';
 import './list-stuff-page.js';

@@ -36,6 +36,13 @@ FlowRouter.route('/profile', {
   },
 });
 
+FlowRouter.route('/invites', {
+  name: 'Invites_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Invites_Page' });
+  },
+});
+
 FlowRouter.route('/aboutus', {
   name: 'About_Us_Page',
   action() {
