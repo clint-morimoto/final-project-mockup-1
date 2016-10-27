@@ -15,9 +15,6 @@ import './login-page.js';
 import './profile_page.html';
 import './profile_page.js';
 
-import './top_page.html';
-import './top_page.js';
-
 import './about-us.html';
 import './about-us.js';
 
