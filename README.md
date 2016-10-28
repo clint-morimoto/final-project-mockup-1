@@ -10,15 +10,21 @@ Login Page
 <img src="/doc/login.png">
 <br><br>
 
-Sign-Up Page
+home Page
 <br>
-<img src="/doc/signup.png">
+<img src="/doc/home.png">
 <br><br>
 
 Profile Page
 <br>
 <img src="/doc/profile.png">
 <br><br>
+
+Requests Page
+<br>
+<img src="/doc/requests.png">
+<br><br>
+
 
 About Page
 <br>
